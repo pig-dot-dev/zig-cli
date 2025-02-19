@@ -19,6 +19,12 @@ Inspired by [urfave/cli](https://github.com/urfave/cli) Go package.
 * prints help with `--help`
 * colored help messages when TTY is attached
 
+### Installation
+Using with the Zig package manager
+Add zig-cli to your build.zig.zon
+
+zig fetch --save git+https://github.com/pig-dot-dev/zig-cli#ec79a047bbd0b1cc317ddb377c83b870a3d0859e
+
 ## Usage
 ```zig
 const std = @import("std");
